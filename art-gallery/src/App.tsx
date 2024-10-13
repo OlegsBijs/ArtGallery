@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Gallery from './components/Gallery';
 import ArtDetails from './components/ArtDetails';
 import './App.css';
-import { ArtProvider } from './context/ArtContext'; // Import the ArtProvider
+import { ArtProvider } from './context/ArtContext';
 
 const App: React.FC = () => {
   return (
